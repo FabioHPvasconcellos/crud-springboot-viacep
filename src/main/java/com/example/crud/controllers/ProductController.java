@@ -83,7 +83,7 @@ public class ProductController {
         return ResponseEntity.ok(filteredProducts);
     }
 
-    // 🚀 ENDPOINT DO PASSO 4
+    
     @GetMapping("/check")
     public Boolean checkDistribution(
             @RequestParam String cep,
